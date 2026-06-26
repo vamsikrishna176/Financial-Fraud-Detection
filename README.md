@@ -1,68 +1,87 @@
 # 💳 Financial Fraud Detection using Machine Learning
 
 ## 📌 Overview
-This project detects fraudulent credit card transactions using a **Random Forest Classifier**. It includes a machine learning model and a Streamlit web application for making predictions.
+
+This project detects fraudulent credit card transactions using a Random Forest Classifier. It includes a machine learning model and a Streamlit web application for predicting whether a transaction is Fraud or Normal.
 
 ## 🚀 Features
+
 - Credit Card Fraud Detection
-- Machine Learning using Random Forest
-- Interactive Streamlit Web App
-- Model saved with Joblib
-- Data preprocessing and visualization
+- Data Preprocessing
+- Random Forest Classifier
+- Model Evaluation
+- Streamlit Web Application
+- Interactive Prediction Interface
 
 ## 🛠️ Technologies Used
+
 - Python
 - Pandas
-- NumPy
 - Scikit-learn
 - Streamlit
 - Joblib
-- Git & GitHub
+- Matplotlib
 
-## 📂 Dataset
-- Credit Card Fraud Detection Dataset
-- Total Transactions: **284,807**
-- Fraud Cases: **492**
+## 📂 Project Structure
 
-## 🤖 Machine Learning Model
-- Algorithm: Random Forest Classifier
-- Accuracy: **99.96%**
-
-## ▶️ How to Run
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/vamsikrishna176/Financial-Fraud-Detection.git
+```
+Financial-Fraud-Detection/
+│── data/
+│── models/
+│── app.py
+│── train_model.py
+│── predict.py
+│── requirements.txt
+│── README.md
 ```
 
-2. Navigate to the project folder
+## ⚠️ Note
 
-```bash
-cd Financial-Fraud-Detection
-```
+The dataset (`creditcard.csv`) and trained model (`fraud_model.pkl`) are **not included** in this repository because of their large file size.
 
-3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Train the model
+To generate the trained model, run:
 
 ```bash
 python train_model.py
 ```
 
-5. Run the Streamlit application
+After the model is created, launch the Streamlit application:
 
 ```bash
 streamlit run predict.py
 ```
 
-## 📸 Screenshots
+## ⚙️ Installation
 
-(Add screenshots of your Streamlit application here after uploading them.)
+Clone the repository:
+
+```bash
+git clone https://github.com/vamsikrishna176/Financial-Fraud-Detection.git
+```
+
+Go to the project folder:
+
+```bash
+cd Financial-Fraud-Detection
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Train the model:
+
+```bash
+python train_model.py
+```
+
+Run the application:
+
+```bash
+streamlit run predict.py
+```
 
 ## 👨‍💻 Author
 
