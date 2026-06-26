@@ -1,0 +1,18 @@
+# Virtual Environment
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Large Dataset (Don't upload)
+data/creditcard.csv
+
+# Trained ML Model (Optional)
+models/fraud_model.pkl
